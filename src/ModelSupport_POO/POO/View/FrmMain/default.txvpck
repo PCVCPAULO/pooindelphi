@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nodeSet version="1.0">
+  <view uin="q5iyvr0rohpntb00p_v">
+    <property name="$defaultDiagram" value="true" />
+    <property name="$metaclass" value="Package Diagram" />
+    <property name="$name" value="default" />
+    <reference referencedUin="delphi:e_class:src:POO:POO.View.FrmMain.@unitclass">
+      <property name="$shortcutReference" value="true" />
+      <reference referencedUin="delphi:e_field:src:POO:POO.View.FrmMain.@unitclass.Form1" />
+      <reference referencedUin="delphi:l_ast:src:POO:POO.View.FrmMain.@unitclass.Form1" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:POO:POO.View.FrmMain.TGarrafa">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="10,10,127,131" />
+      <reference referencedUin="delphi:e_field:src:POO:POO.View.FrmMain.TGarrafa.Cor" />
+      <reference referencedUin="delphi:e_field:src:POO:POO.View.FrmMain.TGarrafa.Modelo" />
+      <reference referencedUin="delphi:e_field:src:POO:POO.View.FrmMain.TGarrafa.Tampa" />
+      <reference referencedUin="delphi:e_method:src:POO:POO.View.FrmMain.TGarrafa.ArmazenarLiquido(System.string)" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:POO:POO.View.FrmMain.TForm1">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="156,1,97,81" />
+    </reference>
+    <reference referencedUin="delphi:e_class:src:POO:POO.View.FrmMain.TLivro">
+      <property name="$shortcutReference" value="true" />
+      <property name="bounds" value="460,220,121,116" />
+      <reference referencedUin="delphi:e_field:src:POO:POO.View.FrmMain.TLivro.Titulo" />
+      <reference referencedUin="delphi:e_field:src:POO:POO.View.FrmMain.TLivro.Autor" />
+      <reference referencedUin="delphi:e_method:src:POO:POO.View.FrmMain.TLivro.Paginacao(System.Integer)" />
+    </reference>
+  </view>
+</nodeSet>
