@@ -1,0 +1,86 @@
+object FrmTest1: TFrmTest1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 480
+  ClientWidth = 640
+  Position = ScreenCenter
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Contents
+    Fill.Color = claTomato
+    Size.Width = 640.000000000000000000
+    Size.Height = 480.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+  end
+  object StyleObject1: TStyleObject
+    Align = Bottom
+    Position.Y = 410.000000000000000000
+    Size.Width = 640.000000000000000000
+    Size.Height = 70.000000000000000000
+    Size.PlatformDefault = False
+    SourceLink = <>
+    object Rectangle2: TRectangle
+      Align = Contents
+      Fill.Color = xFFB11F04
+      Size.Width = 640.000000000000000000
+      Size.Height = 70.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object SpeedButton1: TSpeedButton
+        Align = Right
+        Cursor = crHandPoint
+        StyledSettings = [Family]
+        Position.X = 528.000000000000000000
+        Size.Width = 112.000000000000000000
+        Size.Height = 70.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'CONTADOR'
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        OnClick = SpeedButton1Click
+      end
+    end
+  end
+  object StyleObject2: TStyleObject
+    Align = Top
+    Size.Width = 640.000000000000000000
+    Size.Height = 70.000000000000000000
+    Size.PlatformDefault = False
+    SourceLink = <>
+    object Rectangle3: TRectangle
+      Align = Contents
+      Fill.Color = xFFB11F04
+      Size.Width = 640.000000000000000000
+      Size.Height = 70.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Label1: TLabel
+        Align = FitLeft
+        AutoSize = True
+        StyledSettings = [Family, Size]
+        Margins.Left = 50.000000000000000000
+        Position.X = 50.000000000000000000
+        Position.Y = 27.000000000000000000
+        Size.Width = 590.000000000000000000
+        Size.Height = 16.000001907348630000
+        Size.PlatformDefault = False
+        TextSettings.Font.StyleExt = {00070000000000000004000000}
+        TextSettings.FontColor = claWhite
+        Text = 'Label1'
+        TabOrder = 0
+      end
+    end
+  end
+  object StyleObject3: TStyleObject
+    Align = Client
+    Size.Width = 640.000000000000000000
+    Size.Height = 340.000000000000000000
+    Size.PlatformDefault = False
+    SourceLink = <>
+  end
+end

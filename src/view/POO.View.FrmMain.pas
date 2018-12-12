@@ -4,40 +4,21 @@ interface
 
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
-  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs;
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Styles.Objects, FMX.Objects;
 
 type
 
-  TGarrafa = class
-    Cor : String;
-    Modelo : String;
-    Tampa : String;
-    procedure ArmazenarLiquido(Liquido : String);
-  end;
-
-  TForm1 = class(TForm)
+  TFrmMain = class(TForm)
   private
     { Private declarations }
   public
     { Public declarations }
   end;
 
-  TLivro = class
-  public
-    Titulo: String;
-    Autor: String;
-    function Paginacao(Pagina: Integer): String;
-  end;
-
 var
-  Form1: TForm1;
+  FrmMain: TFrmMain;
 
 implementation
-
-{$R *.fmx}
-
-function TLivro.Paginacao(Pagina: Integer): String;
-begin
-end;
 
 end.

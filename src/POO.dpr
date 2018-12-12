@@ -3,12 +3,13 @@ program POO;
 uses
   System.StartUpCopy,
   FMX.Forms,
-  POO.View.FrmMain in 'view\POO.View.FrmMain.pas' {Form1};
+  POO.View.FrmMain in 'view\POO.View.FrmMain.pas' {FrmMain},
+  POO.View.FrmTest1 in 'view\POO.View.FrmTest1.pas' {FrmTest1};
 
 {$R *.res}
 
 begin
   Application.Initialize;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TFrmTest1, FrmTest1);
   Application.Run;
 end.
