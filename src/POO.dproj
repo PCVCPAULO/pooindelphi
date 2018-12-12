@@ -130,6 +130,7 @@
             <Form>FrmTest1</Form>
             <FormType>fmx</FormType>
         </DCCReference>
+        <DCCReference Include="Classe.Pessoa.pas"/>
         <None Include="ModelSupport_POO\default.txaPackage"/>
         <None Include="ModelSupport_POO\default.txvpck"/>
         <None Include="ModelSupport_POO\POO\default.txvpck"/>

@@ -4,7 +4,8 @@ uses
   System.StartUpCopy,
   FMX.Forms,
   POO.View.FrmMain in 'view\POO.View.FrmMain.pas' {FrmMain},
-  POO.View.FrmTest1 in 'view\POO.View.FrmTest1.pas' {FrmTest1};
+  POO.View.FrmTest1 in 'view\POO.View.FrmTest1.pas' {FrmTest1},
+  Classe.Pessoa in 'Classe.Pessoa.pas';
 
 {$R *.res}
 

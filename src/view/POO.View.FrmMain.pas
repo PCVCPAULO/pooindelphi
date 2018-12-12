@@ -21,4 +21,6 @@ var
 
 implementation
 
+{$R *.fmx}
+
 end.
